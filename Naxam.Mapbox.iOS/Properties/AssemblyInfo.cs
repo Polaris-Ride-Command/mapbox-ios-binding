@@ -12,13 +12,13 @@ using Foundation;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle("Naxam.Mapbox.iOS")]
-[assembly: AssemblyDescription("Xamarin.iOS binding library for Mapbox SDK")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NAXAM CO.,LTD")]
-[assembly: AssemblyProduct("X Bindings")]
-[assembly: AssemblyCopyright("Copyright @ 2019 NAXAM")]
-[assembly: AssemblyTrademark("NAXAM")]
-[assembly: AssemblyCulture("")]
+//[assembly: AssemblyDescription("Xamarin.iOS binding library for Mapbox SDK")]
+//[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyCompany("NAXAM CO.,LTD")]
+//[assembly: AssemblyProduct("X Bindings")]
+//[assembly: AssemblyCopyright("Copyright @ 2019 NAXAM")]
+//[assembly: AssemblyTrademark("NAXAM")]
+//[assembly: AssemblyCulture("")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
