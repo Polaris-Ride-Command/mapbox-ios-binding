@@ -3890,7 +3890,10 @@ namespace Mapbox
         //  Creates an `MGLAttributedExpression` object initialized with an expression and the format attributes dictionary.
         //  */
         // + (instancetype)attributedExpression:(NSExpression *)expression attributes:(nonnull NSDictionary <MGLAttributedExpressionKey, NSExpression *> *)attrs;
-        [Static, Export("attributedExpression:attributes:fontNames:fontScale:")]
+        // 11/18/2024 Tom - This binding project failed to build due to this attribute when we moved from .NET 7 to 8.
+        // There appeared to be a mismatch in the selector name. The project built successfully after removing "fontNames:fontScale:"
+        //[Static, Export("attributedExpression:attributes:fontNames:fontScale:")]
+        [Static, Export("attributedExpression:attributes:")]
         MGLAttributedExpression AttributedExpression(NSExpression expression, NSDictionary attributes);
     }
 
